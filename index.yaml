@@ -1,0 +1,70 @@
+apiVersion: v1
+entries:
+  mysql:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 8.0.29
+    created: "2022-06-01T09:50:45.886767805+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: MySQL is a fast, reliable, scalable, and easy to use open source
+      relational database system. Designed to handle mission-critical, heavy-load
+      production applications.
+    digest: 055a53e4f985f4b14c2f29ee1efd0ac9284e0ae1c2810101f76770937d4bebb8
+    home: https://github.com/bitnami/charts/tree/master/bitnami/mysql
+    icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    - cluster
+    - high availability
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mysql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mysql
+    - https://mysql.com
+    urls:
+    - https://xianfang-qian.github.io/mysql-9.1.0.tgz
+    version: 9.1.0
+  person-detection-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-01T09:50:45.887363201+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 1739f5390a09f4a6fd73eaa9060bee658f5b818725793a9ded9f3825970031a4
+    name: person-detection-app
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/person-detection-app-0.1.0.tgz
+    version: 0.1.0
+  social-distancing-retail:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-01T09:50:45.893244898+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 12d0c3e91ecb5bb118615e2f029a7fbbe7efa757744849b45ff1b2f6dea3deb3
+    name: social-distancing-retail
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/DevCloudContent-helm/social-distancing-retail.tgz
+    version: 0.1.0
+  wireless-ready-itm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-01T09:50:45.889377873+08:00"
+    description: A Helm chart for Kubernetes
+    digest: b31aaa1921208dd1051ffaf5c9757dfeae8b964d510805cb091f9e80be8ff334
+    name: wireless-ready-itm
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/DevCloudContent-helm/itm-https.tgz
+    version: 0.1.0
+generated: "2022-06-01T09:50:45.881675597+08:00"
