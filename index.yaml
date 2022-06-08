@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  mysql:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-08T09:40:51.618883513+08:00"
+    description: A Helm chart for Kubernetes
+    digest: bd06cc5f712cffa99ea103d7ceb151cdf60021daba05b7bf4285f1a765bdba4d
+    name: mysql
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/mysql-0.1.0.tgz
+    version: 0.1.0
+  person-detection-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-08T09:40:51.619331581+08:00"
+    description: A Helm chart for Kubernetes
+    digest: bf6347961623456db6bfec23346bb35b2e418e4308f37b63ef038142f564b632
+    name: person-detection-app
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/person-detection-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-08T09:40:51.618303578+08:00"
