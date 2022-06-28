@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  grafana-mcss:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-28T09:55:08.886231355+08:00"
+    description: A Helm chart for Grafana
+    digest: 90f0da9deeb0e103035d9ee04eac9532b43e0ce1f6802fab404e9f462d7a374d
+    name: grafana-mcss
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/grafana-mcss-0.1.0.tgz
+    version: 0.1.0
+  influxdb:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-28T09:55:08.8868381+08:00"
+    description: A Helm chart for InfluxDB
+    digest: cfd0545c8d93088babe2a19f408c1666c3049c2b608947df79a9909d65a79c04
+    name: influxdb
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/influxdb-0.1.0.tgz
+    version: 0.1.0
+  mc-ssr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-28T09:55:08.887499532+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 957100a6625327012885be8e6a04622eef1e8499f98774805bb9ec9a45d99f22
+    name: mc-ssr
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/mc-ssr-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-28T09:55:08.885207558+08:00"
