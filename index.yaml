@@ -1,0 +1,68 @@
+apiVersion: v1
+entries:
+  grafana-mcss:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-28T10:24:56.242008969+08:00"
+    description: A Helm chart for Grafana
+    digest: 889731926677a88fce6c5e3242ce69dee09569533d44ca3d8abc2d43a191a83e
+    name: grafana-mcss
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/grafana-mcss-0.1.0.tgz
+    version: 0.1.0
+  influxdb:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-28T10:24:56.242511575+08:00"
+    description: A Helm chart for InfluxDB
+    digest: 453076739ed0534511cbf02b4e771f58f3a12be952d31fab7441b42e9b3e538a
+    name: influxdb
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/influxdb-0.1.0.tgz
+    version: 0.1.0
+  mc-ssr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-28T10:24:56.244540035+08:00"
+    description: A Helm chart for Kubernetes
+    digest: cef828cb9006632ba5e0b7533337a767f40f4c50cfb04348bf8ba1074b48754a
+    name: mc-ssr
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/mc-ssr-0.1.0.tgz
+    version: 0.1.0
+  social-distancing-retail:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-28T10:24:56.24636135+08:00"
+    dependencies:
+    - name: grafana-mcss
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    - name: influxdb
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    - name: mc-ssr
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 58c8704e7b38ea556621938214efeead40353bae7ddcda64e8dc848499bb863a
+    name: social-distancing-retail
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/social-distancing-retail-0.1.0.tgz
+    version: 0.1.0
+  wireless-ready-itm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-28T10:24:56.244067657+08:00"
+    description: A Helm chart for Kubernetes
+    digest: b31aaa1921208dd1051ffaf5c9757dfeae8b964d510805cb091f9e80be8ff334
+    name: wireless-ready-itm
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/itm-https.tgz
+    version: 0.1.0
+generated: "2022-06-28T10:24:56.241048319+08:00"
