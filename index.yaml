@@ -3,7 +3,7 @@ entries:
   helm-openvino:
   - apiVersion: v2
     appVersion: "2022.3"
-    created: "2022-06-29T13:26:25.846737383+08:00"
+    created: "2022-06-29T15:42:04.957550763+08:00"
     description: A Helm chart for Kubernetes
     digest: a1cb7349fd38c98e8aaceaa5344547269fa378c3d64eb319d2c58c0bd98a0965
     name: helm-openvino
@@ -14,7 +14,7 @@ entries:
   openvino-influxdb:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-29T13:26:25.848244483+08:00"
+    created: "2022-06-29T15:42:04.959469423+08:00"
     dependencies:
     - name: grafana-mcss
       repository: https://xianfang-qian.github.io
@@ -35,28 +35,42 @@ entries:
   person-detection-app:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-06-29T13:26:25.848860004+08:00"
+    created: "2022-06-29T15:42:04.95990905+08:00"
     description: A Helm chart for Kubernetes
-    digest: 1e8089a639a17c528cc4514c66b7d95aede09192f66e34949df2f1e84fc66d44
+    digest: 7e253321bb7bb6fb25e3f3e93bc199b39ee79b8e7ba80918f6dc45e4f1bef288
     name: person-detection-app
     type: application
     urls:
     - https://xianfang-qian.github.io/person-detection-app-0.1.0.tgz
     version: 0.1.0
+  person-influxdb:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-29T15:42:04.962061873+08:00"
+    dependencies:
+    - name: grafana-mcss
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    - name: influxdb
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    - name: person-detection-app
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    - name: mqtt
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: e3146becb7469330050da28ac462c7cc775fc2b068c0d5ad21dbceb9e43ed20f
+    name: person-influxdb
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/person-influxdb-0.1.0.tgz
+    version: 0.1.0
   social-distancing-retail:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-29T13:26:25.850968091+08:00"
-    description: A Helm chart for Kubernetes
-    digest: 12d0c3e91ecb5bb118615e2f029a7fbbe7efa757744849b45ff1b2f6dea3deb3
-    name: social-distancing-retail
-    type: application
-    urls:
-    - https://xianfang-qian.github.io/social-distancing-retail.tgz
-    version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-06-29T13:26:25.855739923+08:00"
+    created: "2022-06-29T15:42:04.966483632+08:00"
     description: A Helm chart for Kubernetes
     digest: 12d0c3e91ecb5bb118615e2f029a7fbbe7efa757744849b45ff1b2f6dea3deb3
     name: social-distancing-retail
@@ -67,7 +81,7 @@ entries:
   wireless-ready-itm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-29T13:26:25.853872027+08:00"
+    created: "2022-06-29T15:42:04.964243534+08:00"
     description: A Helm chart for Kubernetes
     digest: b31aaa1921208dd1051ffaf5c9757dfeae8b964d510805cb091f9e80be8ff334
     name: wireless-ready-itm
@@ -75,4 +89,4 @@ entries:
     urls:
     - https://xianfang-qian.github.io/DevCloudContent-helm/itm-https.tgz
     version: 0.1.0
-generated: "2022-06-29T13:26:25.845801883+08:00"
+generated: "2022-06-29T15:42:04.956589662+08:00"
