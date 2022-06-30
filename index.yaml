@@ -1,0 +1,92 @@
+apiVersion: v1
+entries:
+  helm-openvino:
+  - apiVersion: v2
+    appVersion: "2022.3"
+    created: "2022-06-30T16:53:52.114319278+08:00"
+    description: A Helm chart for Kubernetes
+    digest: a1cb7349fd38c98e8aaceaa5344547269fa378c3d64eb319d2c58c0bd98a0965
+    name: helm-openvino
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/helm-openvino-0.1.0.tgz
+    version: 0.1.0
+  openvino-influxdb:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-30T16:53:52.116385061+08:00"
+    dependencies:
+    - name: grafana-mcss
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    - name: helm-openvino
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    - name: mqtt
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 966eb0b5b27d390474bc19867f7a4e19921ebaba4ed7a26025fc69f77a05d52f
+    name: openvino-influxdb
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/openvino-influxdb-0.1.0.tgz
+    version: 0.1.0
+  person-detection-app:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-06-30T16:53:52.117185972+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 7e253321bb7bb6fb25e3f3e93bc199b39ee79b8e7ba80918f6dc45e4f1bef288
+    name: person-detection-app
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/person-detection-app-0.1.0.tgz
+    version: 0.1.0
+  person-influxdb:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-30T16:53:52.120310068+08:00"
+    dependencies:
+    - name: grafana-mcss
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    - name: influxdb
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    - name: person-detection-app
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    - name: mqtt
+      repository: https://xianfang-qian.github.io
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: e3146becb7469330050da28ac462c7cc775fc2b068c0d5ad21dbceb9e43ed20f
+    name: person-influxdb
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/person-influxdb-0.1.0.tgz
+    version: 0.1.0
+  social-distancing-retail:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-30T15:48:07.321041136+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 12d0c3e91ecb5bb118615e2f029a7fbbe7efa757744849b45ff1b2f6dea3deb3
+    name: social-distancing-retail
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/social-distancing-retail.tgz
+    version: 0.1.0
+  wireless-ready-itm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-30T16:53:52.122034612+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 827fa03b6bc464c6b42674f0e5ef459202c46a3abe975d1f2b25f3981ce06ca3
+    name: wireless-ready-itm
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/wireless-ready-itm-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-30T16:53:52.113440309+08:00"
