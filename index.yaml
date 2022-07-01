@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  helm-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-01T14:56:16.316085308+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 997557f814eb7a5605e5c5d293fb95a5861dd6a5b02f1a1c6e0a91a65de91bc2
+    name: helm-test
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/helm-test-0.1.0.tgz
+    version: 0.1.0
+  social-distancing-retail:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-01T14:56:16.317941112+08:00"
+    description: A Helm chart for Kubernetes
+    digest: e597fed20a6789a324c8bf2be19f48f878dff250aeb142b432f74fb49d0d18a0
+    name: social-distancing-retail
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/social-distancing-retail-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-07-01T14:56:16.314152891+08:00"
