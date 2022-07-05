@@ -1,0 +1,100 @@
+apiVersion: v1
+entries:
+  grafana:
+  - annotations:
+      category: Analytics
+    apiVersion: v2
+    appVersion: 8.5.6
+    created: "2022-07-05T09:50:02.21623085+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Grafana is an open source metric analytics and visualization suite
+      for visualizing time series data that supports various types of data sources.
+    digest: baa7c6d2535bf758097711d7c188e52f21ffae3b874f9da33b4789c3f737825d
+    home: https://github.com/bitnami/charts/tree/master/bitnami/grafana
+    icon: https://bitnami.com/assets/stacks/grafana/img/grafana-stack-220x234.png
+    keywords:
+    - analytics
+    - monitoring
+    - metrics
+    - logs
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: grafana
+    sources:
+    - https://github.com/bitnami/bitnami-docker-grafana
+    - https://grafana.com/
+    urls:
+    - https://xianfang-qian.github.io/grafana-7.9.8.tgz
+    version: 7.9.8
+  helm-multi:
+  - apiVersion: v2
+    created: "2022-07-05T09:50:02.217821764+08:00"
+    description: A Helm chart for Kubernetes
+    digest: f191e572d32cac8f9061544aee88cca97e525b41073c56c5c6de7b2f07810b1c
+    name: helm-multi
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/helm-multi-0.1.0.tgz
+    version: 0.1.0
+  helm-openvino:
+  - apiVersion: v2
+    appVersion: "2022.3"
+    created: "2022-07-05T09:50:02.218237289+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 6fa457b3bbd3009b40795bb3038f69ddace27aa973262a36b3cd3b0f3f388af2
+    name: helm-openvino
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/helm-openvino-0.1.0.tgz
+    version: 0.1.0
+  helm-person-detection-app:
+  - apiVersion: v2
+    appVersion: "2.0"
+    created: "2022-07-05T09:50:02.218640601+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 26fd530fbdbbf54fc39662419ae19481f3fc326d0fe39c4020d8187992837fbd
+    name: helm-person-detection-app
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/helm-person-detection-app-0.1.0.tgz
+    version: 0.1.0
+  helm-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-05T09:50:02.220175524+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 28beb07f922b5bde1ed39361f4a579d635eb76421cf6a597848d1661f39fc4a3
+    name: helm-test
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/helm-test-0.1.0.tgz
+    version: 0.1.0
+  social-distancing-retail:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-05T09:50:02.2233452+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 12d0c3e91ecb5bb118615e2f029a7fbbe7efa757744849b45ff1b2f6dea3deb3
+    name: social-distancing-retail
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/DevCloudContent-helm/social-distancing-retail.tgz
+    version: 0.1.0
+  wireless-ready-itm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-05T09:50:02.221584867+08:00"
+    description: A Helm chart for Kubernetes
+    digest: b31aaa1921208dd1051ffaf5c9757dfeae8b964d510805cb091f9e80be8ff334
+    name: wireless-ready-itm
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/DevCloudContent-helm/itm-https.tgz
+    version: 0.1.0
+generated: "2022-07-05T09:50:02.211535768+08:00"
