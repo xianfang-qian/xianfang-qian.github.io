@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  helm-multi:
+  - apiVersion: v2
+    created: "2022-07-06T14:24:00.746702069+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 4be8d229bab9c715c654dafae7231a2024adb74f359a78ba14324304d83d573a
+    name: helm-multi
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/helm-multi-0.1.0.tgz
+    version: 0.1.0
+  social-distancing-retail:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-06T14:24:00.751650849+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 12d0c3e91ecb5bb118615e2f029a7fbbe7efa757744849b45ff1b2f6dea3deb3
+    name: social-distancing-retail
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/DevCloudContent-helm/social-distancing-retail.tgz
+    version: 0.1.0
+  wireless-ready-itm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-06T14:24:00.748802443+08:00"
+    description: A Helm chart for Kubernetes
+    digest: b31aaa1921208dd1051ffaf5c9757dfeae8b964d510805cb091f9e80be8ff334
+    name: wireless-ready-itm
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/DevCloudContent-helm/itm-https.tgz
+    version: 0.1.0
+generated: "2022-07-06T14:24:00.743981257+08:00"
