@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   helm-multi:
   - apiVersion: v2
-    created: "2022-07-11T10:14:47.936321811+08:00"
+    created: "2022-07-11T14:19:18.976835459+08:00"
     description: A Helm chart for Kubernetes
-    digest: bf5a5840caa67e279de75a8b1b4171ef0e52b2c1e5bd57701e6285f944b8f3a1
+    digest: 8bc488b0a61e98ce072ab59ba8c49082bea9ec119f826bb657b9d12ae5d93c54
     name: helm-multi
     type: application
     urls:
     - https://xianfang-qian.github.io/helm-multi-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-11T10:14:47.93367014+08:00"
+generated: "2022-07-11T14:19:18.974987447+08:00"
