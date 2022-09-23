@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  helm-hello-world:
+  - apiVersion: v2
+    appVersion: v1
+    created: "2022-09-23T09:02:09.879205497+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 6a5d262705827c226ed189498aa12a0ca819076d8ace93a5f955c8a9966f28ce
+    name: helm-hello-world
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/helm-hello-world-0.1.0.tgz
+    version: 0.1.0
+  helm-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-23T09:02:09.880435039+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 808125b0bda30b48f07991b133a08d586e445271ff1764a91792e8a3cdf1544f
+    name: helm-test
+    type: application
+    urls:
+    - https://xianfang-qian.github.io/helm-test-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-23T09:02:09.877807713+08:00"
