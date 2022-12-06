@@ -14,12 +14,12 @@ entries:
   social-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-22T10:00:14.37326406+08:00"
+    created: "2022-12-06T13:21:44.612091184+08:00"
     description: A Helm chart for Kubernetes
-    digest: 6c0b041900b067ee651005c042e1257b205f37cd4ed4f8d77f04b4d28052b829
+    digest: 995f454229af895be0ed0438c70cb33e4b536b554212d9120c4745b2c25ac660
     name: social-test
     type: application
     urls:
     - https://xianfang-qian.github.io/social-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-30T13:25:23.655393641+08:00"
+generated: "2022-12-06T13:21:44.609196409+08:00"
